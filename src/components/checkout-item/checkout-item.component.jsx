@@ -5,17 +5,17 @@ import "./checkout-item.styles.scss";
 const CheckoutItem = ({ cartItem }) => {
   const { name, imageUrl, price, quantity } = cartItem;
 
-  const { clearItemFromCart, addItemToCart, removeItemFromCart } =
+  const { clearItemFromCart, addItemToCart, removeItemToCart } =
     useContext(CartContext);
 
   const clearItemHandler = () => clearItemFromCart(cartItem); // create handlers, that if method change we can update it here rather then in UI
   const addItemHandler = () => addItemToCart(cartItem);
-  const removeItemHandler = () => removeItemFromCart(cartItem);
+  const removeItemHandler = () => removeItemToCart(cartItem);
 
   return (
     <div className="checkout-item-container">
       <div className="image-container">
-        <img src={imageUrl} alt={name} />
+        <img src={imageUrl} alt={`${name}`} />
       </div>
       <span className="name">{name}</span>
       <span className="quantity">
