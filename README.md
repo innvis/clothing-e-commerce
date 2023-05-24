@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Clothing E-Commerce Site Developed with CRA
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0f9b65b4-767f-4c6c-95cd-c75524821878/deploy-status)](https://app.netlify.com/sites/celadon-muffin-81bf1b/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,6 +70,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Clothing-e-commerce
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0f9b65b4-767f-4c6c-95cd-c75524821878/deploy-status)](https://app.netlify.com/sites/celadon-muffin-81bf1b/deploys)
