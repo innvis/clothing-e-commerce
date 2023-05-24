@@ -69,3 +69,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # Clothing-e-commerce
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0f9b65b4-767f-4c6c-95cd-c75524821878/deploy-status)](https://app.netlify.com/sites/celadon-muffin-81bf1b/deploys)
