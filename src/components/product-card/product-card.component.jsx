@@ -9,8 +9,8 @@ const ProductCard = ({ product }) => {
 
   const addProductToCart = () => addItemToCart(product);
 
-  return (
-    <div className="product-card-container">
+  return (      
+    <div className="product-card-container" data-testid={"product-card"}>
       <img src={imageUrl} alt={`${name}`} />
       <div className="footer">
         <span className="name">{name}</span>

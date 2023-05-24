@@ -18,7 +18,10 @@ const Category = () => {
       <div className="category-container">
         {products &&
           products.map((product) => (
-            <ProductCard key={product.id} product={product} /> //render only if products has a value. SAFEGUARD(only if data is present)
+            <ProductCard
+              key={product.id}
+              product={product}
+            /> //render only if products has a value. SAFEGUARD(only if data is present)
           ))}
       </div>
     </Fragment>
