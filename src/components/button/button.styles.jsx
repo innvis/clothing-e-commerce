@@ -25,7 +25,7 @@ export const BaseButton = styled.button`
   }
 `;
 
-export const GoogleSignButton = styled(BaseButton)`
+export const GoogleSignInButton = styled(BaseButton)`
   background-color: #4285f4;
   color: white;
 
