@@ -19,6 +19,7 @@ describe("button tests", () => {
   test("should render inverted button when passed inverted type", () => {
     render(<Button buttonType={BUTTON_TYPE_CLASSES.inverted}>Test</Button>);
 
-    expect(screen.getByRole("button")).toHaveStyle("background-color: white");
+    const InvertedButton = screen.getByRole("button");
+    expect(InvertedButton).toHaveStyle("background-color: white");
   });
 });
